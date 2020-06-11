@@ -5,4 +5,6 @@
  
 ## BikCraft é um website de bicicletas feita a mão.
 
- Ainda em desenvolvimento
+Ainda em desenvolvimento
+
+Criado pelo curso [Origamid](https://www.origamid.com/)
