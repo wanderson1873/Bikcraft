@@ -74,7 +74,7 @@
     margin-bottom: 2px;
 }
 
-.produto-info ul li:nth-child(even) {
+.produto-info ul li:nth-child(even) { /* even -> pares odd -> impares*/
     margin-left: 2px;
 }
 
@@ -161,7 +161,7 @@
     margin-bottom: 6px;
 }
 
-.orcamento_dados .dados_email {
+.orcamento_dados span:nth-last-of-type(2) {
     margin-bottom: 40px;
 }
 
@@ -179,5 +179,4 @@
 
 .orcamento_dados ul li:nth-child(odd) {
     background: #1d1d1d;
-    
 }
