@@ -1,11 +1,40 @@
 /* Style to TABLET */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
+/* ^PORTIFOLIO */
+.portfolio img {
+	width: 100%;
+}
+
+/* QUALIDADDE */
+.qualidade:after {
+	right: 66px;
+}
+
+.qualidade_lista li {
+	text-align: center;
+	padding: 0 10px;
+}
+
+/* FOOTER */
+.footer_redes ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 6px;
+}
+.footer_redes ul li img {
+	width: 26px;
+	height: 26px;
+}
+
 } 
 
 /* Style to SMARTPHONE */
 @media only screen and (max-width: 767px) {
 /* Header */
+img {
+	width: 100%;
+}
 .header {
 	position: relative;
 	padding-bottom: 0;
@@ -36,10 +65,32 @@
 }
 
 /* Introdução */
+.introducao h1 {
+	font-size: 36px;
+}
+
 .introducao {
 	margin-top: 0;
-	padding-top: 20px;
+	padding-top: 50px;
 	background: url("../img/bg-mobile.jpg") no-repeat center;
 	background-size: cover;
 }
+
+/* PRODUTOS */
+.call {
+	padding-top: 20px;
+}
+
+/* QUALIDADDE */
+
+.qualidade:after {
+	display: none;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+
 }
