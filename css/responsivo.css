@@ -27,6 +27,53 @@
 	height: 26px;
 }
 
+/* Produtos */
+.produto_item {
+    padding-top: 40px;
+}
+
+.produto_item img{
+    width: 100%;
+}
+
+.produto_item h2 {
+	top: -150px;
+	margin-bottom: -56px;
+}
+
+.produto-icone {
+    padding: 35px 0;
+}
+
+.produto-info p {
+    font-size: 14px;
+	line-height: 20px;
+	height: 122px;
+    padding: 20px 30px;
+}
+
+.produto-info ul li {
+    font-size: 16px;
+    line-height: 18px;
+    width: 181px;
+}
+
+/* Orçamento */
+.orcamento {
+    margin-top: 40px;
+}
+
+.orcamento_dados ul {
+    padding-right:0;
+}
+
+/* contato */
+.contato_mapa {
+    margin-bottom: 40px;
+}
+.contato_mapa img {
+    width: 100%;
+}
 } 
 
 /* Style to SMARTPHONE */
@@ -64,6 +111,11 @@ img {
 	border-color: #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+
 /* Introdução */
 .introducao h1 {
 	font-size: 36px;
@@ -74,6 +126,23 @@ img {
 	padding-top: 50px;
 	background: url("../img/bg-mobile.jpg") no-repeat center;
 	background-size: cover;
+}
+
+/* introdução interna */
+.introducao-interna {
+	margin-top: 0;
+}
+
+/* Missão */
+.missao_sobre p {
+	font-size: 14px;
+	line-height: 20px;
+    padding-right: 0;
+}
+
+.missao_sobre ul li {
+    font-size: 15px;
+    line-height: 25px;
 }
 
 /* PRODUTOS */
@@ -92,5 +161,59 @@ img {
     overflow: hidden;
 }
 
+/* Produtos */
+.produto_item {
+    padding-top: 40px;
+}
+
+.produto_item h2 {
+	top: -100px;
+	margin-bottom: -68px;
+}
+
+.produto-icone {
+    padding: 10px;
+}
+
+.produto-info p {
+    font-size: 14px;
+	line-height: 20px;
+	height: 122px;
+    padding: 10px 30px;
+}
+
+.produto-info ul li {
+    font-size: 13px;
+    line-height: 18px;
+    width: 149px;
+}
+
+/* Orçamento */
+.orcamento {
+    margin-top: 40px;
+}
+
+.form {
+    padding-right: 0;
+}
+
+.orcamento_dados ul {
+    padding-right:0;
+}
+
+/* contatpo */
+.contato {
+    padding: 30px 0 0 0;
+}
+.contato_form {
+    padding-right: 0px;
+}
+
+.contato_mapa {
+    margin-bottom: 10px;
+}
+.contato_mapa img {
+    width: 100%;
+}
 
 }
