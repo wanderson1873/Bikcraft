@@ -111,20 +111,25 @@
         <section class="orcamento">
             <div class="container">
                 <h2 class="subtitulo">Orçamento</h2>
-                <form action="" id="form_orcamento" class="grid-8 form">
+                <form action="enviar.php" method="POST" id="form_orcamento" class="grid-8 form formphp">
                     <label for="nome">Name</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" name="name" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email" required>
 
                     <label for="fone">Telefone</label>
-                    <input type="text" id="fone">
+                    <input type="text" id="fone" name="telefone" required>
 
-                    <label for="espc">Especificações</label>
-                    <textarea  name="" id="espc"></textarea>
+                    <label class="nao-aparece">Se você não é um robo, deie em branco</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">Se você não é um robo, não mude esse campo</label>
+                    <input class="nao-aparece" name="dontchange" value="http://" type="text">
 
-                    <button type="submit" class="btn">Enviar</button>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea  name="mensagem" id="mensagem" required></textarea>
+
+                    <button type="submit" id="enviar" name="enviar" class="btn">Enviar</button>
                 </form>
                 <div class="orcamento_dados grid-8">
                     <h3>Dados</h3>
@@ -189,6 +194,8 @@
 			</div>
 		</footer>
         <script src="js/simple-slide.js"></script>
+        <script src="js/simple-anime.js"></script>
+        <script src="js/simple-form.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
