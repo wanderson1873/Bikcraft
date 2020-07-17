@@ -1,12 +1,23 @@
+<h1 align="center">
+<br>
+  <img src="img/bikcraft.svg" width="150">
+<br>
+<br>
+Bikcraft
+</h1>
 
-![bikcraft](https://user-images.githubusercontent.com/65118827/84406070-ef1f3a00-ac00-11ea-9758-cb3d435f2bcc.png)
+
+<p align="center">Bikcraft bicicletas personalizadas feita a mão.</p>
 
 
 
-# BikCraft
- 
-## BikCraft é um website de bicicletas feitas a mão.
 
-Ainda em desenvolvimento
+## Tecnologias
 
-Criado pelo curso [Origamid](https://www.origamid.com/)
+* HTML  
+* CSS
+* JavaScript
+* Grid
+
+
+criado por [Wanderson O](https://github.com/wanderson1873)
