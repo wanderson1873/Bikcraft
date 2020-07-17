@@ -7,7 +7,7 @@ Bikcraft
 </h1>
 
 
-<p align="center">Bikcraft bicicletas personalizadas feita a mão.</p>
+<p align="center">Bikcraft bicicletas personalizadas feitas a mão.</p>
 
 
 
